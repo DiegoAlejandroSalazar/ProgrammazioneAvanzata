@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_ArmDown.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_ArmUp.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_ArmRight.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_ArmLeft.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/BS_ArmAnimation.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/CustomPC.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/8K/GG229DXQEVYNIGAEMMKQFC.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/4I/9JC7X9BUOHSJP55CAEOVUY.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/CR_Mannequin_Body_Take2.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Anim_armUp.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/CR_Mannequin_Body_Take1.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Anim_ArmOut.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_Arm_in.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/Anim_ArmOut.uasset",
+				"C:/Users/diego/Desktop/PJ_Prog_Avanzata/Content/Arm_Animation/BS_MoveArm.uasset"
+			]
+		}
+	]
+}
