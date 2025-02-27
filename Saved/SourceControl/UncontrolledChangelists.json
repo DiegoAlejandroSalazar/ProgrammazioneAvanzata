@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Maps/Piev.umap",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/EnemyAI.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/ai_movement.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Materials/M_HandHoldDisplayMaterial.uasset",
