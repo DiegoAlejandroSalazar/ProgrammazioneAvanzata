@@ -14,10 +14,10 @@ AInteractableObjects::AInteractableObjects()
 // Called when the game starts or when spawned
 void AInteractableObjects::BeginPlay()
 {
-	FString Message = FString(TEXT("dio cane"));
+	FString Message = FString(TEXT("pisello"));
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::Red, Message);
+		GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Red, Message);
 	}
 	
 }
