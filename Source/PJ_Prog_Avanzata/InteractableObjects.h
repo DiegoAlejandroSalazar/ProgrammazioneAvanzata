@@ -14,7 +14,7 @@ class PJ_PROG_AVANZATA_API AInteractableObjects : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AInteractableObjects();
-
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
