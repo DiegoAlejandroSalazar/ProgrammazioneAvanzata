@@ -45,7 +45,8 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
             }
             else
             {
-                UE_LOG(LogTemp, Warning, TEXT("Oggetto errato!"));
+                if (GEngine)
+                    GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Oggetto Sbagliato!"));
             }
         }
     }
