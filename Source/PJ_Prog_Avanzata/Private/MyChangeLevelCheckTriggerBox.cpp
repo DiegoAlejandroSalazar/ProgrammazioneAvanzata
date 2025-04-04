@@ -24,10 +24,10 @@ void AMyChangeLevelCheckTriggerBox::Tick(float DeltaTime)
 
 void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
-    if (OtherActor && OtherActor != this)
-    {
+
         if (OtherActor && OtherActor != this)
         {
+
             // Controlla se l'oggetto ha il tag specifico
             if (OtherActor->ActorHasTag(TEXT("KeyTag")))
             {
@@ -49,5 +49,4 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Oggetto Sbagliato!"));
             }
         }
-    }
 }
