@@ -25,9 +25,8 @@ void AMyChangeLevelCheckTriggerBox::Tick(float DeltaTime)
 void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
 
-        if (OtherActor && OtherActor != this)
-        {
-
+        if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C")
+        {           
             // Controlla se l'oggetto ha il tag specifico
             if (OtherActor->ActorHasTag(TEXT("KeyTag")))
             {
