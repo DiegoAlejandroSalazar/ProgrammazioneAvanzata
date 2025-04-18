@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\InteractableObjects.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\InteractableObjects.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\PJ_Prog_Avanzata.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\PJ_Prog_Avanzata.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\PJ_Prog_Avanzata.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\Private\\MyChangeLevelCheckTriggerBox.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\Source\\PJ_Prog_Avanzata\\Public\\MyChangeLevelCheckTriggerBox.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\diego\\Desktop\\ProgrammazioneAvanzata\\.vscode\\compileCommands_PJ_Prog_Avanzata\\PJ_Prog_Avanzata.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]
