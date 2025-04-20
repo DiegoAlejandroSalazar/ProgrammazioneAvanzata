@@ -22,6 +22,18 @@ void AInteractableObjects::BeginPlay()
 void AInteractableObjects::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (GetVelocity().IsNearlyZero(1.0f)) {
+		
+        if (GEngine)
+            GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Oggetto fermo"));
+        // Perform actions when the actor is not moving
+    }
+    else
+    {
+        if (GEngine)
+            GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Oggetto in movimento"));
+        // Perform actions when the actor is moving
+    }
 
 }
 

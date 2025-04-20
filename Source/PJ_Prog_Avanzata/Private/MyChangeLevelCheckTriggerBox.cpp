@@ -45,7 +45,7 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
             else
             {
                 if (GEngine)
-                    GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Oggetto Sbagliato!"));
+                    GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Oggetto Sbagliato!"));
             }
         }
 }
