@@ -5,12 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/BP_Hook.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/BH/6Q840XR82A7KZJHK3KNFB9.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/BP_HandHolder.uasset"
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
