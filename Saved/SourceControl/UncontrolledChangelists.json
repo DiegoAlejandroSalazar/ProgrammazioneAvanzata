@@ -5,6 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_EnemyAI.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Q8/B8LMYTFYPFE02Y0MA81IEJ.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/GX/ONAMH7874PHS985NVQV4CN.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Arm_Animation/CustomPC.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/BP_Hand.uasset",
 				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
