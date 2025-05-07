@@ -14,11 +14,6 @@
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Arm_Animation/CustomPC.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/BP_Hand.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/W5/5OQVINAWGUT3V9MQM83GHU.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/S7/EJWMTP1AC7C41GWGTNEV86.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/17/CJJ5O6QY1GLRPT42BIK35X.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/DF/KGG6JFDO2CXBHUZN9D8I4O.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/A2/BDTEP0S11GY2J1WRGS9ER7.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/BP_EnemySpawnPoints.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/K7/ACVAOA48AYKNIJ3I7I8T4E.uasset",
@@ -35,6 +30,12 @@
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/P3/B1VV50US4PL7LF5JWADGLX.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/BP_HandHolder.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/Bp_CameraShake.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/W5/5OQVINAWGUT3V9MQM83GHU.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/S7/EJWMTP1AC7C41GWGTNEV86.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/17/CJJ5O6QY1GLRPT42BIK35X.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/DF/KGG6JFDO2CXBHUZN9D8I4O.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/A2/BDTEP0S11GY2J1WRGS9ER7.uasset",
 				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
