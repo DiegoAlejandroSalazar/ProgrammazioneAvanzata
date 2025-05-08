@@ -5,6 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_EnemyAI.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/AI_EnemyController.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/AM_EnemyAttack.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/BT_EnemyMovement.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/GX/ONAMH7874PHS985NVQV4CN.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Q8/B8LMYTFYPFE02Y0MA81IEJ.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/BTTask_Get_To_LastKnownLocation.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/AB_Enemy.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/ABP_Enemy.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/BTTask_EnemyDead.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/AM_Fall_loop+.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/NewAnimMontage.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/AM_Fall_loop.uasset",
+				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Characters/Enemies/BTTask_EnemyAttack.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_EnemyAI.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/Q8/B8LMYTFYPFE02Y0MA81IEJ.uasset",
@@ -37,8 +53,7 @@
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/S7/EJWMTP1AC7C41GWGTNEV86.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/17/CJJ5O6QY1GLRPT42BIK35X.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/DF/KGG6JFDO2CXBHUZN9D8I4O.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/A2/BDTEP0S11GY2J1WRGS9ER7.uasset",
-				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/A2/BDTEP0S11GY2J1WRGS9ER7.uasset"
 			]
 		}
 	]
