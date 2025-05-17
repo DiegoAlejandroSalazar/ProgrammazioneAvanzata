@@ -28,5 +28,8 @@ public:
     UPROPERTY(EditAnywhere)
     TArray<FName> LevelNames;
     int32 CurrentLevelIndex = 0;
+    UPROPERTY(EditAnywhere)
+    int32 NumberOfKeys;
+    
 
 };

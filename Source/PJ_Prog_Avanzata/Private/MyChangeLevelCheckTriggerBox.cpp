@@ -24,23 +24,31 @@ void AMyChangeLevelCheckTriggerBox::Tick(float DeltaTime)
 
 void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
-
-        if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C")
-        {           
+        if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C_0" || "BP_Hand_C")
+        {       
+     
             // Controlla se l'oggetto ha il tag specifico
             if (OtherActor->ActorHasTag(TEXT("KeyTag")))
             {
-                if (LevelNames.IsValidIndex(CurrentLevelIndex))
-                {
-                    UGameplayStatics::OpenLevel(GetWorld(), LevelNames[CurrentLevelIndex]);
-                    CurrentLevelIndex++;
+
+                if (GEngine)
+                    GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
+                OtherActor->Destroy();
+                
+                UGameplayStatics::GetGameMode(GetWorld());
+                //Cast<BP_ThirdPersonCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+                //if (LevelNames.IsValidIndex(CurrentLevelIndex))
+               // {
+                    
+                    //UGameplayStatics::OpenLevel(GetWorld(), LevelNames[CurrentLevelIndex]);
+                   // CurrentLevelIndex++;
 
                     // Resetta l'indice se supera la lunghezza dell'array
-                    if (CurrentLevelIndex >= LevelNames.Num())
-                    {
+                   // if (CurrentLevelIndex >= LevelNames.Num())
+                   // {
                         CurrentLevelIndex = 0; // Torna al primo livello
-                    }
-                }
+                   // }
+               // }
             }
             else
             {
