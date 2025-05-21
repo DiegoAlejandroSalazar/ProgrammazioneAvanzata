@@ -34,8 +34,8 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                 if (GEngine)
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
                 OtherActor->Destroy();
-                static ConstructorHelpers::FClassFinder<ACharacter> Assetfile(TEXT("C: / Users / diego / Desktop / ProgrammazioneAvanzata / Content / ThirdPerson / Blueprints / BP_ThirdPersonCharacter.uasset"));
-                UGameplayStatics::GetGameMode(GetWorld());
+               // static ConstructorHelpers::FClassFinder<ACharacter> Assetfile(TEXT("C: / Users / diego / Desktop / ProgrammazioneAvanzata / Content / ThirdPerson / Blueprints / BP_ThirdPersonCharacter.uasset"));
+                //UGameplayStatics::GetGameMode(GetWorld());
                 //UGameplayStatics::GetPlayerController(getWorld())
                 
                 //if (LevelNames.IsValidIndex(CurrentLevelIndex))
