@@ -25,11 +25,12 @@ public:
     UFUNCTION()
     void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
 
-    UPROPERTY(EditAnywhere)
-    TArray<FName> LevelNames;
-    int32 CurrentLevelIndex = 0;
-    UPROPERTY(EditAnywhere)
-    int32 NumberOfKeys;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "keysNeeded")
+    int32 keysNeeded;
+    UPROPERTY(BlueprintReadWrite, Category = "CurrentKeys")
+    int32 CurrentKeys = 0;
+
+
     
 
 };

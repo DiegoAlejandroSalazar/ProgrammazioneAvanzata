@@ -24,37 +24,26 @@ void AMyChangeLevelCheckTriggerBox::Tick(float DeltaTime)
 
 void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
-        if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C_0" || "BP_Hand_C")
-        {       
-     
-            // Controlla se l'oggetto ha il tag specifico
-            if (OtherActor->ActorHasTag(TEXT("KeyTag")))
-            {
+        if (CurrentKeys != keysNeeded) {
+            if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C_0" || "BP_Hand_C")
+            {       
 
-                if (GEngine)
+             // Controlla se l'oggetto ha il tag specifico
+                if (OtherActor->ActorHasTag(TEXT("KeyTag")))
+                {
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
-                OtherActor->Destroy();
-               // static ConstructorHelpers::FClassFinder<ACharacter> Assetfile(TEXT("C: / Users / diego / Desktop / ProgrammazioneAvanzata / Content / ThirdPerson / Blueprints / BP_ThirdPersonCharacter.uasset"));
-                //UGameplayStatics::GetGameMode(GetWorld());
-                //UGameplayStatics::GetPlayerController(getWorld())
-                
-                //if (LevelNames.IsValidIndex(CurrentLevelIndex))
-               // {
-                    
-                    //UGameplayStatics::OpenLevel(GetWorld(), LevelNames[CurrentLevelIndex]);
-                   // CurrentLevelIndex++;
-
-                    // Resetta l'indice se supera la lunghezza dell'array
-                   // if (CurrentLevelIndex >= LevelNames.Num())
-                   // {
-                      //  CurrentLevelIndex = 0; // Torna al primo livello
-                   // }
-               // }
+                    OtherActor->Destroy();
+                    CurrentKeys++;
+                    if (CurrentKeys == keysNeeded) {
+                        GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Tutte le chiavi inserite"));
+                    }
             }
             else
             {
                 if (GEngine)
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Oggetto Sbagliato!"));
             }
+        }
+
         }
 }
