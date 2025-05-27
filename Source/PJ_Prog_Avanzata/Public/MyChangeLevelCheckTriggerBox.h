@@ -29,6 +29,10 @@ public:
     int32 keysNeeded;
     UPROPERTY(BlueprintReadWrite, Category = "CurrentKeys")
     int32 CurrentKeys = 0;
+    int32 AllLevelKeys = 0;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
+    AActor* BlueprintActorRef;
 
 
     
