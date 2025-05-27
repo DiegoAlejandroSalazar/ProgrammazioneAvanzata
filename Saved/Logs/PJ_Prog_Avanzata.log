@@ -20,13 +20,13 @@ LogCsvProfiler: Display: Metadata set : config="Development"
 LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
 LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
 LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.4061] "
-LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i7-13620H"
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 6600H with Radeon Graphics"
 LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
 LogCsvProfiler: Display: Metadata set : ltoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\diego\Desktop\ProgrammazioneAvanzata\PJ_Prog_Avanzata.uproject""
-LogCsvProfiler: Display: Metadata set : loginid="269202c740eabd42d1e1a8b69dacc483"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\aless\Desktop\Progetto_Circuiti\ProgrammazioneAvanzata\PJ_Prog_Avanzata.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="0b19fdd74f498d6044c85f9a977019c9"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 0.557849
 LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
@@ -48,7 +48,10 @@ LogAudio: Display: AudioInfo: 'BINKA' Registered
 LogConfig: Display: Loading Windows ini files took 0.06 seconds
 LogConfig: Display: Loading Unix ini files took 0.07 seconds
 LogAudio: Display: AudioInfo: 'RADA' Registered
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
 LogAudio: Display: Audio Device Manager Pre-Initialized
+LogConfig: Display: Loading LinuxArm64 ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.07 seconds
 LogPluginManager: Looking for build plugins target receipt
 LogConfig: Display: Loading Android ini files took 0.07 seconds
 LogConfig: Display: Loading Linux ini files took 0.08 seconds
@@ -269,6 +272,9 @@ LogWindows: File 'WinPixGpuCapturer.dll' does not exist
 PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
 LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
 RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Started StudioTelemetry Session
 LogEOSSDK: Initializing EOSSDK Version:1.17.0-39599718
 LogInit: Using libcurl 8.4.0
 LogInit:  - built for Windows
@@ -299,7 +305,7 @@ LogStudioTelemetry: Started StudioTelemetry Session
 LogInit: ExecutableName: UnrealEditor.exe
 LogInit: Build: ++UE5+Release-5.5-CL-40574608
 LogInit: Platform=WindowsEditor
-LogInit: MachineId=269202c740eabd42d1e1a8b69dacc483
+LogInit: MachineId=0b19fdd74f498d6044c85f9a977019c9
 LogInit: DeviceId=
 LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
