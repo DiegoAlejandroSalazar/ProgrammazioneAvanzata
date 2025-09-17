@@ -30,7 +30,7 @@ public:
     UPROPERTY(BlueprintReadWrite, Category = "CurrentKeys")
     int32 CurrentKeys = 0;
     int32 AllLevelKeys = 0;
-
+    //per inserire oggetto porta
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
     AActor* BlueprintActorRef;
 
