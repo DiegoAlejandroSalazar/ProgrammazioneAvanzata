@@ -26,15 +26,18 @@ public:
     void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "keysNeeded")
-    int32 keysNeeded;
+    int32 KeysNeeded;
     UPROPERTY(BlueprintReadWrite, Category = "CurrentKeys")
     int32 CurrentKeys = 0;
     int32 AllLevelKeys = 0;
     //per inserire oggetto porta
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
-    AActor* BlueprintActorRef;
-
-
-    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Door")
+    AActor* Door;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BrokenBoiler")
+    AActor* BoilerIncompleto;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FixedBoiler")
+    TSubclassOf<AActor> BoilerCompleto;
+    //UPROPERTY(EditAnywhere, Category = "FixedBoiler")
+    //UStaticMesh* BoilerCompleto;
 
 };

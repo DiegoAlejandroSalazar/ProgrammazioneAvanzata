@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Kismet/GameplayStatics.h"
-
 #include "MyChangeLevelCheckTriggerBox.h"
+#include "Engine/StaticMeshActor.h"
 
 AMyChangeLevelCheckTriggerBox::AMyChangeLevelCheckTriggerBox()
 {
@@ -19,7 +19,7 @@ void AMyChangeLevelCheckTriggerBox::BeginPlay()
     for (AActor* Actor : Aactor)
     {
         AMyChangeLevelCheckTriggerBox* x = Cast<AMyChangeLevelCheckTriggerBox>(Actor);
-        AllLevelKeys += x->keysNeeded;
+        AllLevelKeys += x->KeysNeeded;
     }
     // Bind the overlap function
     OnActorBeginOverlap.AddDynamic(this, &AMyChangeLevelCheckTriggerBox::OnOverlapBegin);
@@ -32,7 +32,7 @@ void AMyChangeLevelCheckTriggerBox::Tick(float DeltaTime)
 
 void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
-        if (CurrentKeys != keysNeeded) {
+        if (CurrentKeys != KeysNeeded) {
             if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C_0" || "BP_Hand_C")
             {       
              // Controlla se l'oggetto ha il tag specifico
@@ -41,8 +41,13 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
                     OtherActor->Destroy();
                     CurrentKeys++;
-                    if (CurrentKeys == keysNeeded) {
+                    if (CurrentKeys == KeysNeeded) {
                         GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Tutte le chiavi inserite"));
+                        FTransform LocationToSpawn = BoilerIncompleto->GetActorTransform();
+                        BoilerIncompleto->Destroy();
+                        FActorSpawnParameters SpawnParams;
+                        GetWorld()->SpawnActor<AActor>(BoilerCompleto, LocationToSpawn, SpawnParams);
+                        //far partire suono (da vdere come)
                     }
                     int32 AllCurrentKey = 0;
                     TArray<AActor*> Aactor = TArray<AActor*>();
@@ -55,16 +60,16 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                     if (AllCurrentKey == AllLevelKeys)
                     {
                         GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Orange, TEXT("tutte chiavi inserite"));
-                        if (BlueprintActorRef)
+                        if (Door)
                         {
                             // Il nome deve corrispondere esattamente a quello definito nel Blueprint.
                             FName NomeEvento(TEXT("LookAtDoor"));
-                            UFunction* FunzioneEvento = BlueprintActorRef->FindFunction(NomeEvento);
+                            UFunction* FunzioneEvento = Door->FindFunction(NomeEvento);
 
                             if (FunzioneEvento)
                             {
                                 // Se l'evento non prevede parametri, possiamo passare un puntatore nullo.
-                                BlueprintActorRef->ProcessEvent(FunzioneEvento, nullptr);
+                                Door->ProcessEvent(FunzioneEvento, nullptr);
                                 UE_LOG(LogTemp, Warning, TEXT("Evento '%s' chiamato correttamente."), *NomeEvento.ToString());
                             }
                             else
