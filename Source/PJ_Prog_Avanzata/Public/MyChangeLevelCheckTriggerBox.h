@@ -35,9 +35,11 @@ public:
     AActor* Door;
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BrokenBoiler")
     AActor* BoilerIncompleto;
+
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FixedBoiler")
     TSubclassOf<AActor> BoilerCompleto;
-    //UPROPERTY(EditAnywhere, Category = "FixedBoiler")
-    //UStaticMesh* BoilerCompleto;
+    //UPROPERTY(EditAnywhere, Category = "BP_Door")
+    //TSubclassOf<AActor> BP_Door;
+
 
 };
