@@ -1818,13 +1818,15 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.02-18.49.27:953][753]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'all_of_the_lights_lebron_-_manonnamek'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
 [2025.10.02-18.49.29:789][930]LogWindows: WindowsPlatformFeatures enabled
 [2025.10.02-18.49.40:667][ 75]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-18.49.40:667][ 75]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
 [2025.10.02-18.49.40:667][ 75]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
 [2025.10.02-18.49.40:668][ 75]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.10.02-18.49.40:668][ 75]LogGameState: Match State Changed from InProgress to LeavingMap
 [2025.10.02-18.49.40:668][ 75]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-18.49.40:669][ 75]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
 [2025.10.02-18.49.40:669][ 75]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
 [2025.10.02-18.49.40:669][ 75]LogGlobalStatus: Warning: UEngine::BroadcastTravelFailure Travel failed, type: ETravelFailure::InvalidURL, reason: "Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap"
@@ -3144,13 +3146,15 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.02-19.08.04:426][220]PIE: Play in editor total start time 0,075 seconds.
 [2025.10.02-19.08.04:428][220]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'all_of_the_lights_lebron_-_manonnamek'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
 [2025.10.02-19.08.12:963][218]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-19.08.12:963][218]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
 [2025.10.02-19.08.12:963][218]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
 [2025.10.02-19.08.12:965][218]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.10.02-19.08.12:965][218]LogGameState: Match State Changed from InProgress to LeavingMap
 [2025.10.02-19.08.12:965][218]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-19.08.12:965][218]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
 [2025.10.02-19.08.12:965][218]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
 [2025.10.02-19.08.12:965][218]LogGlobalStatus: Warning: UEngine::BroadcastTravelFailure Travel failed, type: ETravelFailure::InvalidURL, reason: "Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap"
@@ -3336,13 +3340,15 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.02-19.08.57:937][876]PIE: Play in editor total start time 0,132 seconds.
 [2025.10.02-19.08.57:938][876]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'all_of_the_lights_lebron_-_manonnamek'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
 [2025.10.02-19.09.07:532][798]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-19.09.07:532][798]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
 [2025.10.02-19.09.07:532][798]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
 [2025.10.02-19.09.07:533][798]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.10.02-19.09.07:534][798]LogGameState: Match State Changed from InProgress to LeavingMap
 [2025.10.02-19.09.07:534][798]LogLongPackageNames: Warning: Can't Find URL: Level_1 : Input 'Level_1 ' contains one of the invalid characters for LongPackageNames: '\:*?"<>|' ,.&!~
-	@#'.. Invalidating and reverting to Default URL.
+
+	@#'.. Invalidating and reverting to Default URL.
 [2025.10.02-19.09.07:534][798]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
 [2025.10.02-19.09.07:534][798]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
 [2025.10.02-19.09.07:534][798]LogGlobalStatus: Warning: UEngine::BroadcastTravelFailure Travel failed, type: ETravelFailure::InvalidURL, reason: "Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap"
