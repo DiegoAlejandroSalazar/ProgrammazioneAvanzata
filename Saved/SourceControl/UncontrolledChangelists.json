@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Player/WalkRun.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Player/ABP_Player.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
@@ -31,6 +32,15 @@
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/BigEnemy/ABP_BigEnemy.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BaseEnemy.uasset",
+=======
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_BossHealthbar.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BOSS.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_HealthBar.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BaseEnemy.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Levels/Boss_level/Boss_level.umap",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+>>>>>>> c468f4f8b752f4aa69a22c6bbb8b39167bde0bdd
 				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Level_2.uasset",
 				"C:/Users/aless/Desktop/Progetto_Circuiti/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Material_001.uasset",
