@@ -3,7 +3,7 @@
 	"changelists": [
 		{
 			"guid": "00000000000000000000000000000000",
-			"description": "Default Uncontrolled Changelist",
+			"description": "Changelist non controllate predefinite",
 			"files": [
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Maps/Amalia/WBP_GameWin.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BOSS.uasset",
