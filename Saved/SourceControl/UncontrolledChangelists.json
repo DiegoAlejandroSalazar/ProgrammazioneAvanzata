@@ -12,7 +12,11 @@
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/M_RoundCooldownBar.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_Cooldown.uasset",
-				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/M_RoundCooldownBar_Inst.uasset"
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/M_RoundCooldownBar_Inst.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BaseEnemy.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Levels/Level_1/Level_1.umap",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/BP_SpawnInteractableObject.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
 			]
 		}
 	]
