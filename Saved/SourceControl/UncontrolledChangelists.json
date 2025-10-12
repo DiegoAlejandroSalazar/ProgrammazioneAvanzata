@@ -37,14 +37,36 @@
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/BP/BP_DoubleDoor.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Cube_007.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/1142-oberflex_contrastesmatieres_boismartele_cheneflottet311_detail.uasset",
-				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Materials/M_HammeredWood.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Materials/AutoAllignUVmap_Inst1.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Actors/BP_Hook.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Actors/Circle.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Actors/BP_Handle.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Actors/Cube_008.uasset",
+<<<<<<< Updated upstream
 				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Level_2_panels.uasset"
+=======
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_1/Animazioni/Cogs.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Barile.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Actors/BP_Hook1.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Catena.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Baule.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/impalc2.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Materials/M_HammeredWood.uasset",
+				"C:/Users/aless/Desktop/Robba/Uni/ProgrammazioneAvanzata/Content/Levels/Level_2/Meshes/Level_2_panels.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Maps/Amalia/WBP_GameWin.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BOSS.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_HUD.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/M_RoundCooldownBar.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_Cooldown.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/M_RoundCooldownBar_Inst.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BaseEnemy.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Levels/Level_1/Level_1.umap",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/BP_SpawnInteractableObject.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+>>>>>>> Stashed changes
 			]
 		}
 	]
