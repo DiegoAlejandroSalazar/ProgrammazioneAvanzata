@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/BP_SpawnInteractableObject.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Arm_Animation/CustomPC.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/handComponent.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/ThirdPerson/HandMechanics/BP_Hand.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/Actors/Interact_Gear.uasset",
+				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/LU/TZVNKDMLAAHO9XT08KRUJY.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Arm_Animation/BS_NewArm.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Player/ABP_Player.uasset",
 				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Arm_Animation/Arm_Pose_Prova_Anim_Arm_Down.uasset",
