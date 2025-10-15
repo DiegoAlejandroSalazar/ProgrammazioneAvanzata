@@ -42,6 +42,7 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                 if (OtherActor->ActorHasTag(TEXT("KeyTag")))
                 {
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
+                    OtherActor->Tags.Add("Chiave Inserita");
                     OtherActor->Destroy();
                     CurrentKeys++;
                     if (CurrentKeys == KeysNeeded) {
