@@ -30,5 +30,13 @@
 			"Name": "HairModelingToolset",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Linux",
+		"LinuxArm64",
+		"Mac",
+		"TVOS",
+		"VisionOS",
+		"Windows"
 	]
 }
