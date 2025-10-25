@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Enemies/EnemyMesh/Boss/Boss_SK_Enemy_Sweep.uasset",
+				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Enemies/Animazioni/Boss/NewSweep.uasset",
+				"D:/Progetti Unreal/ProgrammazioneAvanzata/Content/Characters/Enemies/BP_BOSS.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_HealthBar.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/WP_HUD.uasset",
 				"C:/Users/diego/Desktop/ProgrammazioneAvanzata/Content/UiFolder/BPI_HealthInterface.uasset",
