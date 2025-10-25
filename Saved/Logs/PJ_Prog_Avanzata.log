@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 10/25/25 16:52:31
+=======
+﻿Log file open, 10/22/25 15:29:44
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 10/22/25 15:29:44
 >>>>>>> Stashed changes
@@ -11,8 +15,12 @@ LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogWindows: Started CrashReportClient (pid=47852)
 LogWindows: Enabling Tpause support
+=======
+LogWindows: Started CrashReportClient (pid=9784)
+>>>>>>> Stashed changes
 =======
 LogWindows: Started CrashReportClient (pid=9784)
 >>>>>>> Stashed changes
@@ -28,9 +36,12 @@ LogCsvProfiler: Display: Metadata set : config="Development"
 LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
 LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.6901] "
 LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i7-13620H"
 =======
+=======
+>>>>>>> Stashed changes
 LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.6899] "
 LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen AI 9 365 w/ Radeon 880M"
 >>>>>>> Stashed changes
@@ -42,7 +53,11 @@ LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\diego\Desktop\Pr
 LogCsvProfiler: Display: Metadata set : loginid="269202c740eabd42d1e1a8b69dacc483"
 LogCsvProfiler: Display: Metadata set : llm="0"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogStats: Stats thread started at 1.118155
+=======
+LogStats: Stats thread started at 0.838613
+>>>>>>> Stashed changes
 =======
 LogStats: Stats thread started at 0.838613
 >>>>>>> Stashed changes
@@ -51,7 +66,11 @@ LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: 
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogInit: Session CrashGUID >====================================================
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
          Session CrashGUID >   UECC-Windows-402D9BA849AF747A6243E585EB070E77
+=======
+         Session CrashGUID >   UECC-Windows-BB4340B647278EE5CD3045AE7572FC7D
+>>>>>>> Stashed changes
 =======
          Session CrashGUID >   UECC-Windows-BB4340B647278EE5CD3045AE7572FC7D
 >>>>>>> Stashed changes
@@ -73,16 +92,26 @@ LogAudio: Display: Audio Device Manager Pre-Initialized
 LogConfig: Display: Loading IOS ini files took 0.09 seconds
 LogPluginManager: Looking for build plugins target receipt
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Found matching target receipt: ../../../../../../Users/diego/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
 LogPluginManager: Looking for enabled plugins target receipt
 LogAssetRegistry: Display: Asset registry cache read as 44.2 MiB from ../../../../../../Users/diego/Desktop/ProgrammazioneAvanzata/Intermediate/CachedAssetRegistry_0.bin
 LogPluginManager: Found matching target receipt: ../../../../../../Users/diego/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
 =======
+=======
+>>>>>>> Stashed changes
 LogConfig: Display: Loading Android ini files took 0.09 seconds
 LogConfig: Display: Loading TVOS ini files took 0.09 seconds
 LogConfig: Display: Loading VisionOS ini files took 0.10 seconds
 LogConfig: Display: Loading Linux ini files took 0.10 seconds
 LogConfig: Display: Loading LinuxArm64 ini files took 0.10 seconds
+<<<<<<< Updated upstream
+LogPluginManager: Found matching target receipt: ../../../../../../Users/amali/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Found matching target receipt: ../../../../../../Users/amali/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
+LogAssetRegistry: Display: Asset registry cache read as 44.1 MiB from ../../../../../../Users/amali/Desktop/ProgrammazioneAvanzata/Intermediate/CachedAssetRegistry_0.bin
+>>>>>>> Stashed changes
+=======
 LogPluginManager: Found matching target receipt: ../../../../../../Users/amali/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
 LogPluginManager: Looking for enabled plugins target receipt
 LogPluginManager: Found matching target receipt: ../../../../../../Users/amali/Desktop/ProgrammazioneAvanzata/Binaries/Win64/PJ_Prog_AvanzataEditor.target
@@ -101,6 +130,7 @@ LogPluginManager: Mounting Engine plugin TraceUtilities
 LogPluginManager: Mounting Engine plugin UbaController
 LogPluginManager: Mounting Engine plugin WorldMetrics
 LogPluginManager: Mounting Engine plugin XGEController
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting Engine plugin Paper2D
 LogPluginManager: Mounting Engine plugin AnimationData
@@ -214,11 +244,19 @@ LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin AnimationSharing
 LogPluginManager: Mounting Engine plugin MobilePatchingUtils
 LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting Engine plugin DumpGPUServices
+=======
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting Engine plugin DumpGPUServices
@@ -227,6 +265,7 @@ LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting Engine plugin GitSourceControl
 LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting Engine plugin PerforceSourceControl
@@ -290,6 +329,38 @@ LogPluginManager: Mounting Engine plugin EditorTelemetry
 LogPluginManager: Mounting Engine plugin Fracture
 LogPluginManager: Mounting Engine plugin EditorPerformance
 LogPluginManager: Mounting Engine plugin CharacterAI
+=======
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin CharacterAI
+>>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin FullBodyIK
 LogPluginManager: Mounting Engine plugin GeometryFlow
 >>>>>>> Stashed changes
@@ -297,6 +368,10 @@ LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
 LogPluginManager: Mounting Engine plugin GeometryFlow
 LogPluginManager: Mounting Engine plugin HairModelingToolset
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting Engine plugin LowLevelNetTrace
 >>>>>>> Stashed changes
@@ -310,10 +385,13 @@ LogPluginManager: Mounting Engine plugin SkeletalReduction
 LogPluginManager: Mounting Engine plugin StudioTelemetry
 LogPluginManager: Mounting Engine plugin ToolPresets
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting Engine plugin InterchangeTests
 LogPluginManager: Mounting Engine plugin AndroidMedia
 LogPluginManager: Mounting Engine plugin ImgMedia
 =======
+=======
+>>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin ActorSequence
 LogPluginManager: Mounting Engine plugin LevelSequenceEditor
 LogPluginManager: Mounting Engine plugin SequencerScripting
@@ -354,6 +432,7 @@ LogPluginManager: Mounting Engine plugin StylusInput
 LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
 LogPluginManager: Mounting Engine plugin AndroidMedia
 LogPluginManager: Mounting Engine plugin AvfMedia
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin MediaCompositing
 LogPluginManager: Mounting Engine plugin ImgMedia
@@ -395,6 +474,15 @@ LogPluginManager: Mounting Engine plugin MediaPlate
 LogPluginManager: Mounting Engine plugin InterchangeAssets
 LogPluginManager: Mounting Engine plugin WebMMedia
 LogPluginManager: Mounting Engine plugin WmfMedia
+=======
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+>>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin ActorLayerUtilities
 LogPluginManager: Mounting Engine plugin InterchangeEditor
 LogPluginManager: Mounting Engine plugin Interchange
@@ -485,6 +573,9 @@ LogPluginManager: Mounting Engine plugin LightMixer
 LogPluginManager: Mounting Engine plugin ObjectMixer
 LogPluginManager: Mounting Engine plugin SQLiteCore
 LogPluginManager: Mounting Engine plugin XInputDevice
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting Engine plugin ConcertSyncClient
 LogPluginManager: Mounting Engine plugin ConcertSyncCore
@@ -532,7 +623,11 @@ LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
 LogInit: Net CL: 37670630
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogInit: OS: Windows 11 (25H2) [10.0.26200.6901] (), CPU: 13th Gen Intel(R) Core(TM) i7-13620H, GPU: Intel(R) UHD Graphics
+=======
+LogInit: OS: Windows 11 (25H2) [10.0.26200.6899] (), CPU: AMD Ryzen AI 9 365 w/ Radeon 880M              , GPU: AMD Radeon(TM) 880M Graphics
+>>>>>>> Stashed changes
 =======
 LogInit: OS: Windows 11 (25H2) [10.0.26200.6899] (), CPU: AMD Ryzen AI 9 365 w/ Radeon 880M              , GPU: AMD Radeon(TM) 880M Graphics
 >>>>>>> Stashed changes
@@ -583,6 +678,7 @@ LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B):
 LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
 LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
 LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogConfig: Branch 'EditorLayout' had been unloaded. Reloading on-demand took 1.05ms
 LogConfig: Branch 'Bridge' had been unloaded. Reloading on-demand took 0.14ms
@@ -759,6 +855,8 @@ LogConfig: Branch 'XInputDevice' had been unloaded. Reloading on-demand took 0.1
 LogConfig: Branch 'BaseCharacterFXEditor' had been unloaded. Reloading on-demand took 0.45ms
 LogConfig: Branch 'ConcertSyncClient' had been unloaded. Reloading on-demand took 0.59ms
 =======
+=======
+>>>>>>> Stashed changes
 LogConfig: Branch 'EditorLayout' had been unloaded. Reloading on-demand took 0.76ms
 LogConfig: Branch 'Bridge' had been unloaded. Reloading on-demand took 0.11ms
 LogConfig: Branch 'ChaosCloth' had been unloaded. Reloading on-demand took 0.09ms
@@ -933,6 +1031,9 @@ LogConfig: Branch 'ObjectMixer' had been unloaded. Reloading on-demand took 0.09
 LogConfig: Branch 'SQLiteCore' had been unloaded. Reloading on-demand took 0.09ms
 LogConfig: Branch 'XInputDevice' had been unloaded. Reloading on-demand took 0.09ms
 LogConfig: Branch 'ConcertSyncClient' had been unloaded. Reloading on-demand took 0.13ms
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
 LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
@@ -10104,4 +10205,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.22-14.05.00:584][953]LogD3D12RHI: ~FD3D12DynamicRHI
 [2025.10.22-14.05.00:671][953]LogExit: Exiting.
 [2025.10.22-14.05.00:687][953]Log file closed, 10/22/25 16:05:00
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
