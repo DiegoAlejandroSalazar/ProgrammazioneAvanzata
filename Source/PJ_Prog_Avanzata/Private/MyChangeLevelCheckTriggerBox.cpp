@@ -46,6 +46,7 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                     OtherActor->Destroy();
                     CurrentKeys++;
                     if (CurrentKeys == KeysNeeded) {
+                        UGameplayStatics::PlaySoundAtLocation(this, AllKeysInsertedSound, GetActorLocation());
                         GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Tutte le chiavi inserite"));
                         FTransform LocationToSpawn = BoilerIncompleto->GetActorTransform();
                         BoilerIncompleto->Destroy();
