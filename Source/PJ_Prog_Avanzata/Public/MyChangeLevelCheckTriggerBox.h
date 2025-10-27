@@ -38,8 +38,8 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FixedBoiler")
     TSubclassOf<AActor> BoilerCompleto;
-    //UPROPERTY(EditAnywhere, Category = "BP_Door")
-    //TSubclassOf<AActor> BP_Door;
+    UPROPERTY(EditAnywhere, Category = "Audio")
+    USoundBase* AllKeysInsertedSound;
 
 
 };
