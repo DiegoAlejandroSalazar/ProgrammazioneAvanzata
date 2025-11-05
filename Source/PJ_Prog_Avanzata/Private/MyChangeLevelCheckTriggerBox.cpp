@@ -13,12 +13,9 @@ void AMyChangeLevelCheckTriggerBox::BeginPlay()
 {
     Super::BeginPlay();
     
-
+    //prende tutti gli attori mychangelevelchecktriggerbox nel livello e fa la somma di tutte le chiavi necessarie
     TArray<AActor*> Aactor = TArray<AActor*>();
     UGameplayStatics::GetAllActorsOfClass(GetWorld(), GetClass(), Aactor);
-    //if (!Door) {
-    //    Door = UGameplayStatics::GetActorOfClass(GetWorld(), BP_Door);
-    //}
     for (AActor* Actor : Aactor)
     {
         AMyChangeLevelCheckTriggerBox* x = Cast<AMyChangeLevelCheckTriggerBox>(Actor);
@@ -38,16 +35,17 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
         if (CurrentKeys != KeysNeeded) {
             if (OtherActor && OtherActor != this && OtherActor->GetClass()->GetName() != "BP_ThirdPersonCharacter_C_0" || "BP_Hand_C")
             {       
-             // Controlla se l'oggetto ha il tag specifico
+             // Controlla se l'oggetto ha il tag keytag
                 if (OtherActor->ActorHasTag(TEXT("KeyTag")))
                 {
                     GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Oggetto Giusto!"));
                     OtherActor->Tags.Add("Chiave Inserita");
                     OtherActor->Destroy();
                     CurrentKeys++;
+                    //se le chiavi correnti sono uguali alle chiave necessarie fa partire suono distrugge il boiler non completo e spawna nella stessa posizione quello aggiustato
                     if (CurrentKeys == KeysNeeded) {
                         UGameplayStatics::PlaySoundAtLocation(this, AllKeysInsertedSound, GetActorLocation());
-                        GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Tutte le chiavi inserite"));
+                        GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("boiler aggiustato"));
                         FTransform LocationToSpawn = BoilerIncompleto->GetActorTransform();
                         BoilerIncompleto->Destroy();
                         FActorSpawnParameters SpawnParams;
@@ -65,6 +63,7 @@ void AMyChangeLevelCheckTriggerBox::OnOverlapBegin(AActor* OverlappedActor, AAct
                         AMyChangeLevelCheckTriggerBox* x = Cast<AMyChangeLevelCheckTriggerBox>(Actor);
                         AllCurrentKey += x->CurrentKeys;
                     }
+                    //dopo aver viso se tutte le chiavi del livello sono state inserite chiama l'evento lookatdoor della porta
                     if (AllCurrentKey == AllLevelKeys)
                     {
                         GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Orange, TEXT("tutte chiavi inserite"));

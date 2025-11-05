@@ -30,12 +30,13 @@ public:
     UPROPERTY(BlueprintReadWrite, Category = "CurrentKeys")
     int32 CurrentKeys = 0;
     int32 AllLevelKeys = 0;
-    //per inserire oggetto porta
+    //per inserire oggetto porta presente nel livello
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Door")
     AActor* Door;
+    //per inserire oggetto boiler incompleto presente nel livello
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BrokenBoiler")
     AActor* BoilerIncompleto;
-
+    //per inserire l'attore del boiler completo
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FixedBoiler")
     TSubclassOf<AActor> BoilerCompleto;
     UPROPERTY(EditAnywhere, Category = "Audio")
