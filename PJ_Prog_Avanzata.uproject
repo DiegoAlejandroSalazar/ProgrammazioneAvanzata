@@ -32,11 +32,7 @@
 		}
 	],
 	"TargetPlatforms": [
-		"Linux",
-		"LinuxArm64",
 		"Mac",
-		"TVOS",
-		"VisionOS",
 		"Windows"
 	]
 }
